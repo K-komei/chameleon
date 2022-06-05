@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "electron:serve",
+			"problemMatcher": [],
+			"label": "npm: electron:serve",
+			"detail": "vue-cli-service electron:serve"
+		}
+	]
+}
