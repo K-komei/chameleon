@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app>
+    <v-main>
+
+      <from-row>
+      <DeveloperArea></DeveloperArea>
+      <DeveloperArea></DeveloperArea>
+      <DeveloperArea></DeveloperArea>
+
+      </from-row>
+      <DeveloperArea></DeveloperArea>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+import DeveloperArea from './components/DeveloperArea.vue'
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
+  //  HelloWorld,
+    DeveloperArea
+},
+
+  data: () => ({
+    //
+  }),
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
