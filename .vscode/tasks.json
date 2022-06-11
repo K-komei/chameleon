@@ -7,6 +7,14 @@
 			"problemMatcher": [],
 			"label": "npm: electron:serve",
 			"detail": "vue-cli-service electron:serve"
+		},
+		{
+			"type": "npm",
+			"script": "electron:build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: electron:build - dist_electron",
+			"detail": "vue-cli-service electron:build"
 		}
 	]
 }
